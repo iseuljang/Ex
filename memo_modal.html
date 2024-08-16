@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>메모장</title>
+    <link rel="stylesheet" href="memo.css">
+</head>
+<body>
+    <div id="outDiv"><br>
+        <div id="top">
+            <h2>내 메모장</h2>
+            <form>
+                <div class="input_group">
+                    <input type="text" name="title" id="title" value="메모 제목">
+                    <textarea placeholder="메모의 내용입니다" class="note"></textarea>
+                </div><br><br>
+                <div class="input_group">
+                    <input type="text" name="title" id="title" value="메모 제목">
+                    <textarea placeholder="메모의 내용입니다" class="note"></textarea>
+                </div><br>
+                <button type="button" id="joinBtn">메모 작성하기</button>
+            </form>
+        </div>
+    </div>
+    <!-- 모달창 -->
+    <div class="modal">
+        <table style="background-color: white;" class="modal_contents">
+            <tr>
+                <td style="text-align: center;">
+                    <div class="input_group">
+                        <input type="text" name="title" id="title" value="메모 제목"><br><br>
+                        <textarea placeholder="메모의 내용입니다" class="note"></textarea>
+                        <button type="button" id="joinBtn" style="width: 88%;">메모 작성하기</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
